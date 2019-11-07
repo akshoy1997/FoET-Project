@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'blackboard-12.herokuapp.com',
     '127.0.0.1',
-    'blackboard-django-app.herokuapp.com'
+    'blackboard-app-django.herokuapp.com'
     ]
 
 
