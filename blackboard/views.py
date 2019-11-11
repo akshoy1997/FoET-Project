@@ -15,6 +15,16 @@ def homeView(request):
         return redirect('login')
     return render(request, 'index.html')
 
+def studentView(request):
+    if request.user.is_authenticated==False:
+        return redirect('login')
+    return render(request, 'student.html')
+
+def teacherView(request):
+    if request.user.is_authenticated==False:
+        return redirect('login')
+    return render(request, 'teacher.html')
+
 def registerView(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)

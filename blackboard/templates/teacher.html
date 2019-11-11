@@ -317,8 +317,8 @@
 <span class="pcoded-mtext">Dashboard</span>
 </a>
 <ul class="pcoded-submenu">
-<li class="active">
-<a href="#">
+<li class="">
+<a href="{% url 'home' %}">
 <span class="pcoded-mtext">School Analytics</span>
 </a>
 </li>
@@ -327,8 +327,8 @@
 <span class="pcoded-mtext">Student Analytics</span>
 </a>
 </li>
-<li class="">
-<a href="{% url 'teacher' %}">
+<li class="active">
+<a href="#">
 <span class="pcoded-mtext">Teacher Analytics</span>
 </a>
 </li>
@@ -445,13 +445,12 @@
 </label>
 </div>
 </div>
-List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
-<th>Infrastructure<br/>& Organization</th>
-<th>Quality of <br/>Instructors</th>
-<th>Students <br/>Achievements</th>
-<th>Peer/ Parents <br/>Review</th>
-<th>Feedback <br/>Implementation</th>
-<th>Progress <br/>Graph</th>
+List of Teachers</th>
+<th>Student Feedback</th>
+<th>Soft Skills</th>
+<th>Academic Fluency</th>
+<th>Student Improvement</th>
+<th>Progress Graph</th>
 </tr>
 </thead>
 <tbody>
@@ -468,14 +467,13 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>ABC High School</h6>
+<h6>Alok CHatterjee</h6>
 <p class="text-muted m-b-0">Rank 1</p>
 </div>
 </td>
 <td>8.5/10</td>
 <td>9/10</td>
 <td>9.5/10</td>
-<td>8/10</td>
 <td>10/10</td>
 <td><canvas id="app-sale1" height="50" width="100"></canvas></td>
 </tr>
@@ -492,14 +490,13 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>Central Convent</h6>
+<h6>Sudipta Mukherjee</h6>
 <p class="text-muted m-b-0">Rank 2</p>
 </div>
 </td>
 <td>8/10</td>
 <td>8.5/10</td>
 <td>7/10</td>
-<td>7.5/10</td>
 <td>9/10</td>
 <td><canvas id="app-sale2" height="50" width="100"></canvas></td>
 </tr>
@@ -516,14 +513,13 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>KV IIT KGP</h6>
+<h6>Anirban Upadhyay</h6>
 <p class="text-muted m-b-0">Rank 3</p>
 </div>
 </td>
 <td>7.5/10</td>
 <td>6/10</td>
 <td>7.5/10</td>
-<td>9/10</td>
 <td>5.5/10</td>
 <td><canvas id="app-sale3" height="50" width="100"></canvas></td>
 </tr>
@@ -540,13 +536,12 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>Vidyamandir Education</h6>
+<h6>Mukesh Khanna</h6>
 <p class="text-muted m-b-0">Rank 4</p>
 </div>
 <td>6.5/10</td>
 <td>6/10</td>
 <td>7.5/10</td>
-<td>6/10</td>
 <td>6.5/10</td>
 <td><canvas id="app-sale4" height="50" width="100"></canvas></td>
 </tr>

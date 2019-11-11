@@ -9,6 +9,8 @@ from . import views
 urlpatterns = [
     path('', views.indexView, name='index'),
     path('home/',views.homeView, name='home'),
+    path('student/',views.studentView, name='student'),
+    path('teacher/',views.teacherView, name='teacher'),
     path('register/',views.registerView, name='register'),
     path('login/',auth_views.LoginView.as_view(redirect_authenticated_user=True, template_name='users/login.html'), name='login'),
     path('logout/',auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),

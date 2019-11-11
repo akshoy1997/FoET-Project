@@ -317,13 +317,13 @@
 <span class="pcoded-mtext">Dashboard</span>
 </a>
 <ul class="pcoded-submenu">
-<li class="active">
-<a href="#">
+<li class="">
+<a href="{% url 'home' %}">
 <span class="pcoded-mtext">School Analytics</span>
 </a>
 </li>
-<li class="">
-<a href="{% url 'student' %}">
+<li class="active">
+<a href="#">
 <span class="pcoded-mtext">Student Analytics</span>
 </a>
 </li>
@@ -420,7 +420,7 @@
 <div class="col-xl-12 col-md-12">
 <div class="card table-card">
 <div class="card-header">
-<h5>Comparison Metrics</h5>
+<h5>Performance Analysis</h5>
 <div class="card-header-right">
 <ul class="list-unstyled card-option">
 <li><i class="feather icon-maximize full-card"></i></li>
@@ -445,13 +445,13 @@
 </label>
 </div>
 </div>
-List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
-<th>Infrastructure<br/>& Organization</th>
-<th>Quality of <br/>Instructors</th>
-<th>Students <br/>Achievements</th>
-<th>Peer/ Parents <br/>Review</th>
-<th>Feedback <br/>Implementation</th>
-<th>Progress <br/>Graph</th>
+List of Students</th>
+<th>Physics</th>
+<th>Chemistry</th>
+<th>Mathematics</th>
+<th>Biology</th>
+<th>Comp. Science</th>
+<th>Progress Graph</th>
 </tr>
 </thead>
 <tbody>
@@ -468,15 +468,15 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>ABC High School</h6>
+<h6>Prateek Pandey</h6>
 <p class="text-muted m-b-0">Rank 1</p>
 </div>
 </td>
-<td>8.5/10</td>
-<td>9/10</td>
-<td>9.5/10</td>
-<td>8/10</td>
-<td>10/10</td>
+<td>85/100</td>
+<td>90/100</td>
+<td>95/100</td>
+<td>80/100</td>
+<td>100/100</td>
 <td><canvas id="app-sale1" height="50" width="100"></canvas></td>
 </tr>
 <tr>
@@ -492,15 +492,15 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>Central Convent</h6>
+<h6>Deepak Ahirwar</h6>
 <p class="text-muted m-b-0">Rank 2</p>
 </div>
 </td>
-<td>8/10</td>
-<td>8.5/10</td>
-<td>7/10</td>
-<td>7.5/10</td>
-<td>9/10</td>
+<td>80/100</td>
+<td>85/100</td>
+<td>70/100</td>
+<td>75/100</td>
+<td>90/100</td>
 <td><canvas id="app-sale2" height="50" width="100"></canvas></td>
 </tr>
 <tr>
@@ -516,15 +516,15 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>KV IIT KGP</h6>
+<h6>Ramesh Aggrawal</h6>
 <p class="text-muted m-b-0">Rank 3</p>
 </div>
 </td>
-<td>7.5/10</td>
-<td>6/10</td>
-<td>7.5/10</td>
-<td>9/10</td>
-<td>5.5/10</td>
+<td>75/100</td>
+<td>60/100</td>
+<td>75/100</td>
+<td>90/100</td>
+<td>55/100</td>
 <td><canvas id="app-sale3" height="50" width="100"></canvas></td>
 </tr>
 <tr>
@@ -540,20 +540,20 @@ List of <br/>&nbsp; &nbsp; &nbsp; &nbsp; Schools</th>
 </div>
 </div>
 <div class="d-inline-block align-middle">
-<h6>Vidyamandir Education</h6>
+<h6>Kirti Deshmukh</h6>
 <p class="text-muted m-b-0">Rank 4</p>
 </div>
-<td>6.5/10</td>
-<td>6/10</td>
-<td>7.5/10</td>
-<td>6/10</td>
-<td>6.5/10</td>
+<td>65/100</td>
+<td>60/100</td>
+<td>75/100</td>
+<td>60/100</td>
+<td>65/100</td>
 <td><canvas id="app-sale4" height="50" width="100"></canvas></td>
 </tr>
 </tbody>
 </table>
 <div class="text-center">
-<a href="#" class=" b-b-primary text-primary">View Detailed Analysis</a>
+<a href="#" class=" b-b-primary text-primary">View Detailed Performance</a>
 </div>
 </div>
 </div>
